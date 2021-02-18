@@ -1,0 +1,20 @@
+name: Build and deploy Hugo project to GitHub pages
+on:
+  push:
+    branches:
+      - prod
+
+jobs:
+  build:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout prod
+        uses: actions/checkout@v1
+
+      - name: Deploy the site
+        uses: joohoi/hugo-deploy@master
+        env:
+          DEPLOY_REPO: fmkc-projects/fmkc-site
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_USER: fmkc-buildbot
