@@ -27,3 +27,5 @@ google_fonts = [["IBM Plex Sans", "400, 400i, 700, 700i"]]
 heading_font = "IBM Plex Sans"
 [taxonomies]
 tag = "tags"
+[language]
+LanguageDirection = "ltr"
