@@ -1,0 +1,31 @@
+baseURL = ""
+defaultContentLanguage = "en"
+description = "FMKC Wiki"
+# disableKinds = ["section", "taxonomyTerm", "taxonomy"]
+enableRobotsTXT = true
+features = ["responsive"]
+languageCode = "en-uk"
+license = "CC BY 3.0"
+licenselink = "https://creativecommons.org/licenses/by/3.0/"
+min_version = "0.62.0"
+name = "Finnish Mechanical Keyboard Community"
+pygmentsCodefences = true
+pygmentsUseClasses = true
+tags = ["landing-page", "hugo-theme", "hugo-templates", "blog", "responsive", "clean", "simple", "custom-themes", "mobile", "flexbox", "minimalistic", "pages"]
+theme = "book"
+title = "FMKC Wiki"
+[author]
+homepage = "https://www.linkedin.com/in/oliver-granlund-7291b2166/"
+name = "Oliver Granlund"
+[markup.goldmark.renderer]
+unsafe = true
+[params]
+body_font = "IBM Plex Sans"
+dateform = "Jan 2, 2006"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04 -0700"
+dateformShort = "Jan 2"
+google_fonts = [["IBM Plex Sans", "400, 400i, 700, 700i"]]
+heading_font = "IBM Plex Sans"
+[taxonomies]
+tag = "tags"
