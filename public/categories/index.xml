@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Ollis cool site</title>
-    <link>https://olli.io/categories/</link>
-    <description>Recent content in Categories on Ollis cool site</description>
+    <title>Categories on Finnish Mechanical Keyboard Community Wiki</title>
+    <link>https://fmkc.fi/categories/</link>
+    <description>Recent content in Categories on Finnish Mechanical Keyboard Community Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fi</language><atom:link href="https://olli.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://fmkc.fi/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development</title>
+      <link>https://fmkc.fi/categories/Development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fmkc.fi/categories/Development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://fmkc.fi/categories/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fmkc.fi/categories/golang/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

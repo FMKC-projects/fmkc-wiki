@@ -2,7 +2,7 @@
 
 baseURL = 'https://fmkc.fi/'
 title = 'Finnish Mechanical Keyboard Community Wiki'
-theme = 'hugo-book'
+theme = 'book'
 
 # Book configuration
 disablePathToLower = true
