@@ -2,7 +2,8 @@
 
 baseURL = 'https://fmkc.fi/'
 title = 'Finnish Mechanical Keyboard Community Wiki'
-theme = 'book'
+theme = 'book-fmkc-fork'
+defaultContentLanguage = "fi"
 
 # Book configuration
 disablePathToLower = true
@@ -21,27 +22,21 @@ enableGitInfo = true
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
 [languages]
-[languages.en]
-  languageName = 'English'
+[languages.fi]
+  languageName = 'Suomi'
   contentDir = 'content'
   weight = 1
 
 [menu]
-# [[menu.before]]
 [[menu.after]]
-  name = "Github"
-  url = "https://github.com/alex-shpak/hugo-book"
+  name = "FMKC Wiki Github repository"
+  url = "https://github.com/FMKC-projects/fmkc-wiki"
   weight = 10
-
-[[menu.after]]
-  name = "Hugo Themes"
-  url = "https://themes.gohugo.io/hugo-book/"
-  weight = 20
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme = 'auto'
+  BookTheme = 'dark'
 
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
@@ -55,15 +50,16 @@ enableGitInfo = true
   # (Optional, default none) Set leaf bundle to render as side menu
   # When not specified file structure and weights will be used
   # BookMenuBundle = '/menu'
+  BookMenuBundle = ''
 
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
   # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  BookSection = 'docs'
+  BookSection = 'wiki'
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/alex-shpak/hugo-book'
+  BookRepo = 'https://github.com/FMKC-projects/fmkc-wiki'
 
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
@@ -84,7 +80,7 @@ enableGitInfo = true
   # By default partals/docs/comments.html includes Disqus template
   # See https://gohugo.io/content-management/comments/#configure-disqus
   # Can be overwritten by same param in page frontmatter
-  BookComments = true
+  BookComments = false
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
