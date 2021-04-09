@@ -5,18 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/docs
-  label: Docs
+  path: content/wiki
+  label: Wiki
   create: all
   match: "**/*"
 - type: directory
-  path: content/menu
-  label: Menu
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/posts
-  label: Posts
+  path: content/blogi
+  label: Blogi
   create: all
   match: "**/*"
 - type: directory
