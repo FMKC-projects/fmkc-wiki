@@ -1,0 +1,1 @@
+navigator.serviceWorker&&navigator.serviceWorker.register("/fmkc-wiki/sw.js",{scope:"/fmkc-wiki/"})
