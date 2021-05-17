@@ -9,6 +9,7 @@
 {{ define "book-menu-hugo" }}
 <ul>
   {{ range . }}
+
   <li>
     <a href="{{ .URL }}" {{ if not .Page }}target="_blank" rel="noopener"{{ end }}>
       {{- .Pre -}}

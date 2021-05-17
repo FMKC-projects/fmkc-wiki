@@ -28,6 +28,10 @@ enableGitInfo = true
   weight = 1
 
 [menu]
+[[menu.before]]
+  name = "Wiki"
+  url = "/wiki/"
+  weight = 10
 [[menu.after]]
   name = "FMKC Wiki Github repository"
   url = "https://github.com/FMKC-projects/fmkc-wiki"
