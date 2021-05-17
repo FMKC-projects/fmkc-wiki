@@ -1,9 +1,9 @@
 ---
-weight: 1
+weight: "1"
 bookFlatSection: true
-title: "Etusivu"
----
+title: Etusivu
 
+---
 # Etusivu
 
-Tämä on kiva etusivu
+Tämä teksti on lisätty Forestryn kautta sen jälkeen kun Githubin pipelines on isketty tulille.
