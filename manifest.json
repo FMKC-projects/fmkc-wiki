@@ -1,14 +1,14 @@
 {
   "name": "Finnish Mechanical Keyboard Community Wiki",
   "short_name": "Finnish Mechanical Keyboard Community Wiki",
-  "start_url": "/fmkc-wiki/",
-  "scope": "/fmkc-wiki/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/fmkc-wiki/favicon.svg",
+      "src": "/favicon.svg",
       "sizes": "512x512"
     }
   ]
